@@ -1,3 +1,4 @@
+package com.production.tce1.Problema1;
 public class Cruzeiro extends Navio{
 
     private int numeroMaxPassageiros;
@@ -17,6 +18,6 @@ public class Cruzeiro extends Navio{
 
 
     public String toString(){
-        return "Nome: "+ nome + " || Capacidade Passageiros: " + numeroMaxPassageiros;
+        return "Nome: "+ getNome() + " || Capacidade Passageiros: " + getNumeroMaxPassageiros();
     }
 }

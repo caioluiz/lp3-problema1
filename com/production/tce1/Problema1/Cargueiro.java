@@ -1,3 +1,4 @@
+package com.production.tce1.Problema1;
 public class Cargueiro extends Navio{
 
     private int capacidadeCarga;
@@ -16,7 +17,7 @@ public class Cargueiro extends Navio{
     }
 
     public String toString(){
-        return "Nome: "+ nome + "  || Capacidada Carga: " + capacidadeCarga;
+        return "Nome: "+ getNome() + "  || Capacidada Carga: " + getCapacidadeCarga();
     }
     
 }
